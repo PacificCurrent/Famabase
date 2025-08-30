@@ -4,6 +4,11 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import App from './App.jsx';
 import AddItem from './pages/AddItem.jsx';
 import Laundry from './pages/Laundry.jsx';
+import Loadout from './pages/Loadout.jsx';
+// ...
+<Link to="/loadout">Loadout</Link>
+// ...
+<Route path="/loadout" element={<Loadout />} />
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
